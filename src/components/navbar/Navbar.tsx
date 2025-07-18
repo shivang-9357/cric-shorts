@@ -3,16 +3,11 @@ import { NAVBAR_OPTIONS } from "@/utils/constants";
 import { Button, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import React, { useState } from "react";
-
-interface INavbar {
-  items: string[];
-}
+import React from "react";
 
 const Navbar = () => {
   const { status } = useParams();
   //   const [activeTab, setActiveTab] = useState(NAVBAR_OPTIONS[0]);
-  const [activeTab, setActiveTab] = useState(status || "All");
   return (
     <Flex w={"100%"} justifyContent={"center"}>
       <Flex
@@ -32,7 +27,6 @@ const Navbar = () => {
                 justifyContent={"center"}
                 w={"120px"}
                 bg={item.toLowerCase() === status ? "#bc3d70" : "transparent"}
-                onClick={() => setActiveTab(item)}
                 padding={"10px 20px"}
                 color={"white"}
               >

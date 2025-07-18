@@ -24,10 +24,8 @@ const MatchCard = ({
   date,
   time,
   matchStatus,
-  matchWinner,
   matchScore,
 }: IMatchCard) => {
-  console.log(getMatchScore(teamA.code, teamB.code, date, time));
   return (
     <Card.Root
       bg={"#242033"}

@@ -4,7 +4,7 @@ export const teams = [
   { code: "MI", name: "Mumbai Indians", logo: "/logos/mi.png" },
   { code: "RCB", name: "Royal Challengers Bangalore", logo: "/logos/rcb.png" },
   { code: "KKR", name: "Kolkata Knight Riders", logo: "/logos/kkr.png" },
-  { code: "DC", name: "Delhi Capitals", logo: "/logos/dc.ppg" },
+  { code: "DC", name: "Delhi Capitals", logo: "/logos/dc.png" },
   { code: "RR", name: "Rajasthan Royals", logo: "/logos/rr.png" },
   { code: "PBKS", name: "Punjab Kings", logo: "/logos/pbks.png" },
   { code: "SRH", name: "Sunrisers Hyderabad", logo: "/logos/srh.png" },
