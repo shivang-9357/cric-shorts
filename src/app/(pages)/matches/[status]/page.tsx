@@ -10,7 +10,7 @@ export default async function StatusMatches({ params }: PageProps) {
     `${process.env.NEXT_PUBLIC_SITE_URL}/api/matches?status=${status}`,
     status !== "live" && status !== "all"
       ? {
-          next: { revalidate: 1 }, // also works here for fetch cache
+          next: { revalidate: 300 }, // also works here for fetch cache
         }
       : {
           cache: "no-store",
