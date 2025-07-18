@@ -25,10 +25,11 @@ const Navbar = () => {
                 cursor={"pointer"}
                 borderRadius={"20px"}
                 justifyContent={"center"}
-                w={{ base: "120px" }}
+                w={{ base: "80px", lg: "150px", sm: "120px" }}
                 bg={item.toLowerCase() === status ? "#bc3d70" : "transparent"}
                 padding={"10px 20px"}
                 color={"white"}
+                fontSize={{ base: "0.7rem", sm: "0.9rem" }}
               >
                 <Text>{item}</Text>
               </Button>

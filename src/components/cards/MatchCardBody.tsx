@@ -56,7 +56,9 @@ const MatchCardBody = ({
           <Text>{time}</Text>
         </Flex>
       ) : (
-        <Text>{(matchScore as MatchScore).description}</Text>
+        <Text fontSize={{ base: "0.9rem", sm: "1rem" }}>
+          {(matchScore as MatchScore).description}
+        </Text>
       )}
     </>
   );

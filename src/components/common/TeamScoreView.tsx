@@ -23,7 +23,11 @@ const TeamScoreView = ({
       alignItems={"center"}
       gap={"20px"}
     >
-      <Box position={"relative"} height={"70px"} width={"70px"}>
+      <Box
+        position={"relative"}
+        height={{ base: "40px", sm: "70px" }}
+        width={{ base: "40px", sm: "70px" }}
+      >
         <Image
           layout="fill"
           objectFit="contain"
