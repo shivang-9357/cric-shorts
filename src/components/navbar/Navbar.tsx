@@ -25,7 +25,7 @@ const Navbar = () => {
                 cursor={"pointer"}
                 borderRadius={"20px"}
                 justifyContent={"center"}
-                w={"120px"}
+                w={{ base: "120px" }}
                 bg={item.toLowerCase() === status ? "#bc3d70" : "transparent"}
                 padding={"10px 20px"}
                 color={"white"}

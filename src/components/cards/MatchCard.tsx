@@ -30,8 +30,9 @@ const MatchCard = ({
     <Card.Root
       bg={"#242033"}
       m={"0 auto"}
-      w={"50%"}
+      w={"100%"}
       minW={"281px"}
+      maxW={"500px"}
       p={"10px 20px"}
       key={matchNumber}
       gap={"20px"}
